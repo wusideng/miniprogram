@@ -1,0 +1,34 @@
+.status-box {
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.status-box .status-label {
+    width: 250rpx;
+    height: 100%;
+    text-align: center;
+    font-size: 28rpx;
+    color: #353535;
+}
+.status-box .status-label.active {
+    color: #e64340;
+    border-bottom: 6rpx solid #e64340;
+}
+.split-line{
+    float: right;
+    height: 60rpx;
+    margin-top:15rpx;
+    width:2rpx;
+    border-left: solid #eee 1rpx;
+}
+.content-box{
+    width: 100%;
+    line-height: 88rpx;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1rpx solid #eee;  
+    text-align: center;
+}

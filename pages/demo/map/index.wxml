@@ -1,0 +1,39 @@
+<map
+		id="map"
+		longitude="{{longitude}}"
+		latitude="{{latitude}}"
+		scale="{{scale}}"
+		markers="{{markers}}"
+		polyline="{{polyline}}"
+		bindmarkertap="markertap"
+		bindregionchange="bindRegionChange"
+		bindtap="bindMapClick"
+		show-location="false"
+		style="width:{{width}}rpx; height: {{height}}rpx;">
+</map>
+<cover-view class="data-box" style="height:{{height}}rpx;">
+	<cover-view>
+		<cover-view>数据展示</cover-view>
+		<cover-image wx:if="{{isShowDataBox}}" class="data-hide-show" src="/assets/img/map/right.png"></cover-image>
+		<cover-image wx:else class="data-hide-show" src="/assets/img/map/left.png"></cover-image>
+	</cover-view>
+	<cover-view>
+		<!--点位信息描述-->
+		<cover-view wx:for="{{markers}}"></cover-view>
+	</cover-view>
+</cover-view>
+<cover-view class="select-box">
+	<cover-view>input1</cover-view>
+	<cover-view>input2</cover-view>
+	<cover-view>input3</cover-view>
+</cover-view>
+<cover-view class="map-tool">
+	<cover-image bindtap="bindToPosition" class="position" src="/assets/img/map/position.png"></cover-image>
+	<cover-image class="phone" src="/assets/img/map/phone.png"></cover-image>
+	<cover-image class="phone" src="/assets/img/map/line.png"></cover-image>
+	<cover-image bindtap="addRandomMarkers" class="phone" src="/assets/img/map/marker.png"></cover-image>
+</cover-view>
+<cover-view class="zoom-tool">
+	<cover-image bindtap="bindZoomOut" class="def-tool" src="/assets/img/map/add.png"></cover-image>
+	<cover-image bindtap="bindZoomIn" class="def-tool" src="/assets/img/map/reduce.png"></cover-image>
+</cover-view>

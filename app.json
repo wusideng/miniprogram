@@ -1,0 +1,58 @@
+{
+	"pages": [
+		"pages/demo/map/index",
+		"pages/original/calendar/index",
+		"pages/original/calendar/sub-page/index",
+		"pages/index/index",
+		"pages/api-example/index/index",
+		"pages/api-example/share/index",
+		"pages/original/chart/index/index",
+		"pages/original/chart/mutilateCircle/index",
+		"pages/original/worth-calc/plot/index",
+		"pages/original/tab/index",
+		"pages/original/index/index",
+		"pages/original/encrypt/index",
+		"pages/original/worth-calc/user-img/index",
+		"pages/original/data-grid/index",
+		"pages/original/event/index",
+		"pages/original/modal/index",
+		"pages/original/swiper/index",
+		"pages/original/tree/index",
+		"pages/plot/createCanvasContext/index",
+		"pages/demo/animation/index",
+		"pages/demo/icon/index",
+		"pages/demo/css/index",
+		"pages/demo/get-userinfo/index",
+		"pages/demo/object-values/index",
+		"pages/demo/monitoring/index",
+		"pages/demo/payment/index",
+		"pages/demo/input/index",
+		"pages/demo/phone/index",
+		"pages/demo/web-view/index"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "微信功能演示",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": true,
+		"onReachBottomDistance": 50
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "assets/img/tab/home-off.png",
+				"selectedIconPath": "assets/img/tab/home-on.png"
+			},
+			{
+				"pagePath": "pages/original/index/index",
+				"text": "原件",
+				"iconPath": "assets/img/tab/my-off.png",
+				"selectedIconPath": "assets/img/tab/my-on.png"
+			}
+		]
+	},
+	"networkTimeout": 6000
+}

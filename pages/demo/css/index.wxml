@@ -1,0 +1,10 @@
+<view class="half-ball-left"></view>
+<text class="half-ball-right"></text>
+<button bindtap='bindtapClick1'>点击</button>
+<button bindtap='bindtapClick2' class='btn-bg-img'></button>
+<button bindtap='bindtapClick3' class='btn-bg-img-def'></button>
+<button bindtap='bindtapClick3' class='btn-bg-img-defurl'></button>
+<view class="css-bg">
+</view>
+<view class="css-bg-extent">
+</view>

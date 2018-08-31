@@ -1,0 +1,26 @@
+<view class="mySwiper-container">
+	小程序官方Swiper
+	<swiper indicator-dots="{{indicatorDots}}"
+	        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" previous-margin="100rpx" next-margin="100rpx">
+		<block wx:for="{{imgUrls}}">
+			<swiper-item>
+				<image src="{{item}}" class="slide-image" data-val="{{item}}" bindtap="bindSwiperItem"/>
+			</swiper-item>
+		</block>
+	</swiper>
+	<button bindtap="changeIndicatorDots"> indicator-dots</button>
+	<button bindtap="changeAutoplay"> autoplay</button>
+	<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
+	<slider bindchange="durationChange" show-value min="1000" max="10000"/> duration
+</view>
+
+<view class="mySwiper-container">
+	不能拖动的Swiper，点击滑动操作；
+	<view class="mySwiper">
+		<view class="mySwiper">
+			<image src="{{imgUrls[2]}}" class="img-left"></image>
+			<image src="{{imgUrls[2]}}" class="img-center"></image>
+			<image src="{{imgUrls[2]}}" class="img-right"></image>
+		</view>
+	</view>
+</view>

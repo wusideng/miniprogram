@@ -1,0 +1,9 @@
+<view class="wrapper" data-url="{{cdata.url}}" bindtap="toOriginal">
+  <view>
+  	{{cdata.title}}
+    <image src="/assets/img/arrow-right.png" class="arrow-right"></image>
+  </view>
+  <view>
+  	{{cdata.subtitle}}
+  </view>
+</view>

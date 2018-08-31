@@ -1,0 +1,9 @@
+<canvas canvas-id="myCanvas"/>
+<view>1、您当前的存款数额</view>
+<view class="progressCell">
+<text>{{percent}}%</text>
+<progress percent="{{percent}}" activeColor="#fc9b5e" stroke-width="30"/>
+<!-- <progress percent="{{percentTest}}" activeColor="#fc9b5e" stroke-width="30" active/> -->
+</view>
+<input/>
+<button bindtap='btnNext'>下一步</button>
