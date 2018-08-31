@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "新建提醒",
-  "usingComponents": {
-    "action-sheet-container":"/components/action-sheet-container/index"
-  }
-}

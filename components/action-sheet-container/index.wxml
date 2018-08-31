@@ -1,5 +1,0 @@
-<view class="action-sheet-mask" wx:if="{{visable}}" animation="{{animationMask}}" bindtap="cancelEvent">
-</view>
-<view class="action-sheet-container" animation="{{animationData}}" wx:if="{{visable}}">
-	<slot></slot>
-</view>

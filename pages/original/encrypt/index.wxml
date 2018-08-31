@@ -1,5 +1,0 @@
-<!--pages/original/encrypt/index.wxml-->
-<view>crypt加密</view>
-<view>key:{{key}}</view>
-<view>value:{{value}}</view>
-<view>encrypt:{{encrypt}}</view>

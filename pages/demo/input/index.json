@@ -1,9 +1,0 @@
-{
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#0000ff",
-    "navigationBarTitleText": "微信功能演示",
-    "backgroundColor": "#dbdbdb",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true,
-    "onReachBottomDistance": 50
-}

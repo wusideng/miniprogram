@@ -1,6 +1,0 @@
-<import src="../../../templates/animation/index.wxml"/>
-<button bindtap="bindAnimation">退出页面</button>
-<button  animation="{{animationData1}}">动画效果</button>
-<template is="myTemp" data="{{name:'312312',pwd:'231231',tempanimationData:animationData1}}"/>
-<view style="background:red;height:100rpx;width:100rpx">
-</view>

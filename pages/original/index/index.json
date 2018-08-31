@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "original-cell": "/components/originalCell/index"
-  },
-  "navigationBarTitleText": "微信控件示例"
-}

@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "component-modal": "/components/modal/index",
-    "action-sheet":"/components/action-sheet/index"
-  }
-}

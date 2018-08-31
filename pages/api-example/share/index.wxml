@@ -1,5 +1,0 @@
-<!--pages/ApiExample/share/index.wxml-->
-<view>
-  <image src='https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1227241137,643745545&fm=58&s=34B6773697F46D905EF5CDC600007033&bpow=121&bpoh=75'></image>
-</view>
-<button open-type="share">share</button>

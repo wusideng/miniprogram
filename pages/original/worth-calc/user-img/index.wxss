@@ -1,9 +1,0 @@
-input{
-  border:1rpx solid #eee;
-}
-.progressCell{}
-.progressCell text{
-  position: absolute;
-  margin-top: 10rpx;
-  color:#ffffff;
-}

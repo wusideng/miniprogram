@@ -1,7 +1,0 @@
-{
-	"usingComponents": {
-		"mutilateCircle": "/components/chart/mutilateCircle/index",
-		"ruleTest": "/components/chart/ruler/index",
-		"calendar": "/components/calendar/index"
-	}
-}

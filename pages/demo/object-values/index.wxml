@@ -1,8 +1,0 @@
-<!--pages/demo/promise/index.wxml-->
-<view>
-	<text>Promise:{{msg}}</text>
-</view>
-<view>
-	<text>数组：{{arr1['hClientNonce']}}</text>
-	<text>数组：{{arr1.has}}</text>
-</view>

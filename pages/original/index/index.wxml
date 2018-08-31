@@ -1,3 +1,0 @@
-
-<original-cell wx:for="{{originalList}}" cdata="{{item}}" wx:key="{{index}}"></original-cell>
-<button bindtap='turnTo'>点击跳转</button>

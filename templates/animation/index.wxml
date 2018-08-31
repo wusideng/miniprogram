@@ -1,7 +1,0 @@
-<template name="myTemp"  >
-  <view class='myView' animation="{{tempanimationData}}">
-    <text> 我的模版： </text>
-    <text> Time: {{time}} </text>
-    <text> name: {{name}}</text>
-  </view>
-</template>
