@@ -149,7 +149,7 @@ Page({
 		let scale = this.data.scale - 1;
 		this.setData({
 			scale
-		});
+		});  
 	},
 	/**
 	 * 添加测试点位
