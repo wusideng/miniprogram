@@ -1,0 +1,19 @@
+<view>
+	system:{{system}}
+</view>
+<view>
+	model:{{model}}
+</view>
+<view>
+	<button  bindgetuserinfo="userInfoHandler" bindtap="userInfobind" open-type="getUserInfo">授权按钮</button>
+	<button bindtap="getOpenId">获取OpenId</button>
+	<button bindtap="getCode">获取Code</button>
+	<button bindtap="getQRCode">生成二维码</button>
+	<button bindtap="appDownLoad">下载App</button>
+	<button open-type="openSetting">授权</button>
+	<button bindtap="getSystem">获取设备信息及微信信息</button>
+</view>
+<view style="width:100%;text-align: center;line-height: 120rpx;">
+	<text style="font-size:40rpx; " bindtap="getCopy">文本复制</text>
+</view>
+

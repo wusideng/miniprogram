@@ -1,0 +1,7 @@
+<view>
+	<button>拨打电话</button>
+	<text class='txtphone' data-phoneNum="18614032685" bindtap="bindPhoneCall">18614032685</text>
+</view>
+<view>
+	<button bindtap="bindScanCode">扫码</button>
+</view>

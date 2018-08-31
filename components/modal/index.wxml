@@ -1,0 +1,18 @@
+<view class="modal-container" style="{{modalStyle}}" wx:if="{{customContent}}">
+  <view class="modal-close" bindtap="toClose" wx:if="{{hasClose}}">
+    <text class="iconfont icon-close-x"></text>
+  </view>
+  <view class="modal-title">{{title}}</view>
+  <view class="modal-content">{{content}}</view>
+  <view class="modal-confirm" wx:if="{{model!=='alert'}}">
+    <view class="modal-btn modal-btn-cancel" bindtap="toCancel" wx:if="{{hasCancel}}">{{cancelText}}</view>
+    <viwe class="modal-split"></viwe>
+    <view class="{{model !=='prompt'?'modal-btn':'modal-btn-alert'}} modal-btn-confirm" bindtap="toConfirm" wx:if="{{hasConfirm}}">{{confirmText}}</view>
+  </view>
+</view>
+<view class="modal-container" wx:else>
+  <slot></slot>
+</view>
+
+<view class="modal-mask" style="{{maskStyle}}">
+</view>

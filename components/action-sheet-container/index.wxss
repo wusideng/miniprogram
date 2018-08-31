@@ -1,0 +1,16 @@
+.action-sheet-container{
+	width:750rpx;
+	min-height: 300rpx;
+	position: absolute;
+	bottom:0rpx;
+}
+
+.action-sheet-mask{
+	position:absolute;
+	width:750rpx;
+	min-height:100%;
+	top:0rpx;
+	left:0rpx;
+	opacity: 0.0;
+	background: #000000;
+}

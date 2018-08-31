@@ -1,0 +1,59 @@
+.container .title{
+  font-size: 32rpx;
+  font-weight: bolder;
+  color: #000000;
+}
+.container .cell1 button{
+  width:150rpx;
+  background-color:#ddd222;
+  float: left;
+  font-size: 28rpx;
+  margin:30rpx;
+  position: static; 
+}
+.container .cell1 .btn-txt{
+  float: left;
+  width: 150rpx;
+  height: 67rpx;
+  margin: 30rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color:#000000;
+  background-color: #ddd222;
+  border-radius: 10rpx;
+  position:relative;
+}
+.container .cell2 button{
+  float: left;
+  height: 67rpx;
+  width: 160rpx;
+  margin: 30rpx;
+  font-size: 28rpx;
+  line-height: 67rpx;
+  background-color: #00ff22;
+}
+.container .cell2 button:after{
+  border:none;
+}
+.container .cell2 .btn-txt{
+  float: left;
+  width: 160rpx;
+  height: 67rpx;
+  margin: 30rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color:#000000;
+  background-color: #00ff22;
+  border-radius: 10rpx;
+  position:relative;
+}
+.container .cell4 navigator{
+  float: left;
+  margin: 30rpx;
+  position: relative;
+  color: #0000ff;
+  border-bottom: 1rpx solid #0000ff;
+}
+.container .cell4 navigator:link{
+  border-bottom: 1rpx solid #0000ff;
+}

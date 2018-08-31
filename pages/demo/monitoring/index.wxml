@@ -1,0 +1,13 @@
+<view class="container">
+	监控-埋点
+	<view>
+		<button bindtap="bindOrder" class="orderCreate">预约</button>
+	</view>
+	<view>
+		<button data-type="gkqs" bindtap="getMonitoring">获取统计数据-概况趋势</button>
+		<button data-type="fwqs" bindtap="getMonitoring">获取统计数据-访问趋势</button>
+		<button data-type="fwfb" bindtap="getMonitoring">获取统计数据-访问分布</button>
+		<button data-type="fwlc" bindtap="getMonitoring">获取统计数据-访问留存</button>
+		<button data-type="fwym" bindtap="getMonitoring">获取统计数据-访问页面</button>
+	</view>
+</view>

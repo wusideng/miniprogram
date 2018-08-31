@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Tab",
+  "usingComponents": {
+    "component-tree": "/components/tree/index"
+  }
+}

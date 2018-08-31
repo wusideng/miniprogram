@@ -1,0 +1,9 @@
+<view class="wrapper">
+<view class="header">
+  <text wx:for="{{hdata}}" wx:key="index">{{item}}</text>
+</view>
+<view class="body">
+  
+</view>
+</view>
+<text>components/dataGrid/index.wxml</text>

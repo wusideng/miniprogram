@@ -1,0 +1,11 @@
+<view class="action-sheet-mask" wx:if="{{visable}}" animation="{{animationMask}}" bindtap="cancelEvent">
+</view>
+<view class="action-sheet-container" animation="{{animationData}}" wx:if="{{visable}}">
+	<view class="action-sheet-title">
+		<text>{{title}}</text>
+	</view>
+	<button wx:for="{{listItem}}" data-name="{{item}}" data-key="{{index}}" wx:key="{{index}}" bindtap="actionEvent">
+		{{item}}
+	</button>
+	<button bindtap="cancelEvent">取消</button>
+</view>

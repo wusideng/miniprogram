@@ -1,0 +1,42 @@
+var loandata=  [{
+  "id": null,
+  "phaseNumber": 1,
+  "plannedTermAmount": 1.03,
+  "plannedTermInterest": 0.04,
+  "plannedTermPrinciple": 0.99,
+  "termRemainingPrincipal": 4.01
+}, {
+    "id": null,
+  "phaseNumber": 2,
+  "plannedTermAmount": 1.03,
+  "plannedTermInterest": 0.04,
+  "plannedTermPrinciple": 0.99,
+  "termRemainingPrincipal": 3.02
+}, {
+    "id": null,
+  "phaseNumber": 3,
+  "plannedTermAmount": 1.03,
+  "plannedTermInterest": 0.03,
+  "plannedTermPrinciple": 1,
+  "termRemainingPrincipal": 2.02
+}, {
+    "id": null,
+  "phaseNumber": 4,
+  "plannedTermAmount": 1.03,
+  "plannedTermInterest": 0.02,
+  "plannedTermPrinciple": 1.01,
+  "termRemainingPrincipal": 1.01
+}, {
+    "id": null,
+  "phaseNumber": 5,
+  "plannedTermAmount": 1.02,
+  "plannedTermInterest": 0.01,
+  "plannedTermPrinciple": 1.01,
+  "termRemainingPrincipal": 0
+}]
+
+// 直接计算  
+var plan =[]
+module.export.data = {
+  loandata: loandata
+}

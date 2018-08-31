@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"DataGrid",
+  "usingComponents":{
+    "component-dataGrid": "/components/dataGrid/index"
+  }
+}

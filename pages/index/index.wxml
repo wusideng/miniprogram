@@ -1,0 +1,2 @@
+
+<original-cell wx:for="{{originalList}}" cdata="{{item}}" wx:key="{{index}}"></original-cell>

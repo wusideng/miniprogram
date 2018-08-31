@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "original-cell": "/components/originalCell/index"
+  },
+  "navigationBarTitleText": "Components"
+}

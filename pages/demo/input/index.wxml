@@ -1,0 +1,20 @@
+<wxs src="../../../utils/validate.wxs" module="validate"/>
+<view>
+	wxs
+	手机号码：133 3333 3333 前序输入
+	<input placeholder="请输入手机号"  value="{{validate.showPhone(phone)}}" bindinput = "bindPhoneInput" maxlength="13"/>
+	后序输入
+	<input placeholder="请输入手机号"/>
+</view>
+<view style="background-color:#3296fa;height:200rpx;">
+	<view style="height:50rpx"></view>
+	<view class="view-shadow">
+		<view>
+			文本输入动画 ，输入则 placehold 排到上方，当输入文本隐藏；
+		</view>
+		<view class="phone" animation="{{animationData}}" wx:if="{{inputholder&& phone2.length < 11}}">请输入手机号</view>
+		<view class="phone" animation="{{animationData}}" wx:if="{{!validate.phone(phone2) && phone2.length === 11 }}">请输入正确的手机号码</view>
+		<input placeholder="请输入手机号"  value="{{validate.showPhone(phone2)}}" bindinput = "bindPhoneInputWithHolder" maxlength="13"/>
+		<view style="height:50rpx"></view>
+	</view>
+</view>

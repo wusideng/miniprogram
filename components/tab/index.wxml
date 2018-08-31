@@ -1,0 +1,11 @@
+<!--components/tab/index.wxml-->
+
+  <view class='status-box'>
+    <view bindtap='switchTab' class='status-label {{index == activeIndex? "active" : ""}}' wx:for-items='{{list}}' wx:key='{{index}}' data-index='{{index}}'>
+      {{item}}
+      <view wx:if="{{index!==list.length-1}}" class='split-line'></view>
+    </view>
+  </view>
+  <view class='content-box'>
+    <slot></slot>
+  </view>
